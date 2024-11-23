@@ -96,7 +96,7 @@ if (password === "Imaad") {
     console.log("Wrong password. Try again please!");
 }
 
-const sports = ["Football", "Basketball", "Baseball", "Tennis", "Soccer"];
+const sports = ["Football", "Basketball", "Baseball", "Tennis", "Soccer", "Golf"];
  for (const sport of sports) {
     console.log(sport);
  }
