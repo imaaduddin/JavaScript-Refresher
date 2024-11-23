@@ -52,3 +52,25 @@ class User {
 
 const firstUser = new User("Imaad", 27);
 console.log(firstUser);
+
+
+const days = ["Monday", "Tuesday", "Wednesday"];
+console.log(days[1]);
+
+days.push("Thursday");
+console.log(days);
+
+const index = days.findIndex((item) => {
+    return item === "Thursday";
+});
+console.log(index);
+
+const looping = days.map((item) => {
+   return item + "!"
+});
+console.log(looping);
+
+const looping2 = days.map((item) => {
+    return {text: item};
+ });
+console.log(looping2);
