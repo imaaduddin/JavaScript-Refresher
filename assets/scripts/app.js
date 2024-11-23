@@ -86,15 +86,15 @@ const arrayTwo = [6, 7, 8, 9, 10];
 const mergeArray = [...arrayOne, ...arrayTwo];
 console.log(mergeArray);
 
-// const password = prompt("Your Password Please!");
+const password = prompt("Your Password Please!");
 
-// if (password === "Imaad") {
-//     console.log("Imaad is correct!");
-// } else if (password === "imaad") {
-//     console.log("imaad works too!");
-// } else {
-//     console.log("Wrong password. Try again please!");
-// }
+if (password === "Imaad") {
+    console.log("Imaad is correct!");
+} else if (password === "imaad") {
+    console.log("imaad works too!");
+} else {
+    console.log("Wrong password. Try again please!");
+}
 
 const sports = ["Football", "Basketball", "Baseball", "Tennis", "Soccer"];
  for (const sport of sports) {
