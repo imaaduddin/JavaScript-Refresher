@@ -74,3 +74,33 @@ const looping2 = days.map((item) => {
     return {text: item};
  });
 console.log(looping2);
+
+
+const userData = ["Imaad", "Uddin"];
+
+const firstName = userData[0];
+const lastName = userData[1];
+
+const arrayOne = [1, 2, 3, 4, 5];
+const arrayTwo = [6, 7, 8, 9, 10];
+const mergeArray = [...arrayOne, ...arrayTwo];
+console.log(mergeArray);
+
+// const password = prompt("Your Password Please!");
+
+// if (password === "Imaad") {
+//     console.log("Imaad is correct!");
+// } else if (password === "imaad") {
+//     console.log("imaad works too!");
+// } else {
+//     console.log("Wrong password. Try again please!");
+// }
+
+const sports = ["Football", "Basketball", "Baseball", "Tennis", "Soccer"];
+ for (const sport of sports) {
+    console.log(sport);
+ }
+
+ setTimeout(() => {
+    console.log("Timing out...");
+ }, 2000);
