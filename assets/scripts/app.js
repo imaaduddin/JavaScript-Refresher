@@ -28,3 +28,27 @@ const testFunc = () => {
 }
 
 testFunc();
+
+const user = {
+    name: "Imaad",
+    age: 27,
+    greet() {
+        console.log("Hello!");
+    }
+};
+
+console.log(user.name);
+user.greet();
+
+class User {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    greet() {
+        console.log("Hello my people!");
+    }
+}
+
+const firstUser = new User("Imaad", 27);
+console.log(firstUser);
